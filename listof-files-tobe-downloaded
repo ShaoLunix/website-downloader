@@ -1,0 +1,8 @@
+# When a folder is declared, its entirely path is created on the remote server
+# if it doesnot exist yet and the entirely content of the folder is transferred.
+# Commented texts are not interpreted by the script.
+# You should only declare absolute paths.
+# Below are some examples :
+#/var/www/SOURCE.MYWEB.REMOTE/views/include/menus/
+#/var/www/SOURCE.MYWEB.REMOTE/views/include/test.php
+
