@@ -2,7 +2,7 @@
 
 #==============================================================================#
 #
-#       WEBSITE-UPLOADER
+#       WEBSITE-DOWNLOADER
 #
 # This script downloads files from a remote server.
 # This is very useful to send files from a server to another one without having
