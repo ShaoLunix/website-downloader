@@ -80,7 +80,13 @@ currentTime=$(date +"%Y%m%d"_"%H%M%S")
 
 
 #=== CONFIGURATION FILE
-. "$script_configfile"
+if [ ! -f "$script_configfile" ]
+    then
+        echo "$script_configfile could not be found."
+        exit 1
+    else
+        . "$script_configfile"
+fi
 # Loading the configuration file
 load_configfile
 
